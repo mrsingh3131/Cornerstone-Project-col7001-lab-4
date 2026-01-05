@@ -1,10 +1,6 @@
 import sys
 import struct
 
-OPCODES = {
-    "PUSH": 0x01, "ADD": 0x10, "HALT": 0xFF,
-    "STORE": 0x30, "LOAD": 0x31, "CALL": 0x40, "RET": 0x41
-}
 
 OPCODES = {
     "PUSH": 0x01, "POP": 0x02, "DUP": 0x03, "HALT": 0xFF,
