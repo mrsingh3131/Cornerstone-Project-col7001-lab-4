@@ -13,6 +13,8 @@ tests = [
     ("test_mult.asm", 30),
     ("test_div.asm", 10),
     ("test_loop.asm", 0),
+    ("test_call.asm", 25),
+    ("test_call2.asm", 25),
 ]
 
 print(f"{'Test File':<20} | {'Expected':<10} | {'Actual':<10} | {'Status':<10}")
