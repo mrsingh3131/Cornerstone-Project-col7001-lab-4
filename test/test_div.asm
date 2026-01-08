@@ -1,0 +1,4 @@
+PUSH 20
+PUSH 2
+DIV
+HALT
